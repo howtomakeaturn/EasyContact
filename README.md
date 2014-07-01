@@ -8,7 +8,7 @@ https://account.live.com/developers/applications/create
 ### Google Gmail
 https://console.developers.google.com/
 
-#### 2. Get id, secret and set redirect uri in above consoles, set them in google_config.json, microsoft_config.json, and yahoo_config.json.
+#### 2. Get id, secret and set redirect uri in above consoles, set them in google_config.json and microsoft_config.json.
 
 ```javascript
 {
