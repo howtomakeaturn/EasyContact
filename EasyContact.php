@@ -24,5 +24,13 @@ class EasyContact{
         $this->google = new GoogleContact();
         $this->microsoft = new MicrosoftContact();
     }
+    
+    /*
+     * TODO: Yahoo 
+     *
+     * http://www.walkswithme.net/yahoo-contact-list-reader-with-oauth-api-in-php
+     * 
+     * https://developer.apps.yahoo.com/dashboard/createKey.html
+     */
         
 }

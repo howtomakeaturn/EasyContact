@@ -1,5 +1,5 @@
 # EasyContact
-The fastest way to get users' email contact from Google Gmail, Yahoo Mail, and Microsoft Outlook.
+The fastest way to get users' email contact from Google Gmail and Microsoft Outlook.
 
 #### 1. Create an application, get client id and secret at:
 
@@ -37,7 +37,9 @@ Let's take Gmail for example:
             echo $contact['address'];
             echo '<hr />';
         }
-    }
+    }    
 ```
 
+Change $this->google to $this->microsoft,
+Then you can get contact from them!
 That's all!
