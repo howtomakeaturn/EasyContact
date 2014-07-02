@@ -66,8 +66,7 @@ class MicrosoftContact extends AbstractContact{
     function proceedForContacts(){
         $url = 'https://apis.live.net/v5.0/me/contacts';
         $query = array(
-            'access_token' => $this->getAccessToken(),
-            'limit' => '100'
+            'access_token' => $this->getAccessToken()
         );
         
         $result = file_get_contents($url . '?' . http_build_query($query));
